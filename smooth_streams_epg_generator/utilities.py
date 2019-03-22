@@ -169,6 +169,10 @@ class Utility(object):
     def parse_command_line_arguments(cls):
         parser = ArgumentParser()
 
+        parser.add_argument('-b',
+                            action='store_true',
+                            dest='do_backup_output_xmltv_files',
+                            help='backup XMLTV files generated from previous execution')
         parser.add_argument('-c',
                             action='store',
                             default=DEFAULT_CONFIGURATION_FILE_PATH,
@@ -196,7 +200,8 @@ class Utility(object):
 
         arguments = parser.parse_args()
 
-        return (arguments.configuration_file_path,
+        return (arguments.do_backup_output_xmltv_files,
+                arguments.configuration_file_path,
                 arguments.database_file_path,
                 arguments.log_file_path,
                 arguments.output_directory_path)

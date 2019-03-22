@@ -24,7 +24,8 @@ def main():
         Privilege.initialize()
         Privilege.become_unprivileged_user()
 
-        (configuration_file_path,
+        (do_backup_output_xmltv_files,
+         configuration_file_path,
          database_file_path,
          log_file_path,
          output_directory_path) = Utility.parse_command_line_arguments()
@@ -48,7 +49,7 @@ def main():
         Rovi.generate_xmltv_files()
         SchedulesDirect.generate_xmltv_files()
 
-        EPG.generate_epg(output_directory_path)
+        EPG.generate_epg(output_directory_path, do_backup_output_xmltv_files)
 
         Database.commit()
         Database.close_connection()

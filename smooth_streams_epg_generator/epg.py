@@ -3499,7 +3499,7 @@ class EPG(object):
                 Error.add_error(error)
 
     @classmethod
-    def generate_epg(cls, output_directory_path):
+    def generate_epg(cls, output_directory_path, do_backup_output_xmltv_files):
         cls._startup_date_time_in_utc = datetime.now(pytz.utc).replace(microsecond=0)
 
         logger.info('Parsing default SmoothStreams channel map\n'
@@ -3526,7 +3526,8 @@ class EPG(object):
                            parse_channels=False)
         cls._cleanup_smooth_streams_epg()
 
-        Utility.backup_epgs(output_directory_path)
+        if do_backup_output_xmltv_files:
+            Utility.backup_epgs(output_directory_path)
 
         cls._relax_merge_smooth_streams_epg()
         cls._generate_epgs(output_directory_path, is_forced=False)
