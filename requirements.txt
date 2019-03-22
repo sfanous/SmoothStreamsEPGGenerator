@@ -1,0 +1,8 @@
+configobj >= 5.0.6
+fuzzywuzzy >= 0.17.0
+jellyfish >= 0.7.1
+lxml >= 4.3.2
+pytz >= 2018.9
+requests >= 2.21.0
+requests_oauthlib >= 1.2.0
+tzlocal >= 1.5.1
