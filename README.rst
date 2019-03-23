@@ -19,11 +19,17 @@ Updating to the latest version is just a matter of updating your local repositor
 
     $ git pull
 
-SmoothStreamsEPGGenerator depends on a few packages. To install these packages run the following command
+SmoothStreamsEPGGenerator depends on a few required packages. To install these packages run the following command
 
 .. code-block:: bash
 
     $ pip install -r requirements.txt
+
+SmoothStreamsEPGGenerator performance depends on an optional package. To install this package run the following command
+
+.. code-block:: bash
+
+    $ pip install -r optional-requirements.txt
 
 Running
 =======
