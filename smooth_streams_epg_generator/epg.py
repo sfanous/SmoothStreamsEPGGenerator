@@ -492,9 +492,9 @@ class EPG(object):
                     if epg_program_title == potential_matching_program.titles[0]['value'] and \
                             epg_program_sub_title == potential_matching_program_sub_title and \
                             epg_program_channel == potential_matching_program.channel and \
-                            datetime.strptime(epg_program_start,
+                            datetime.strptime(re.sub(r'\+00:00', '+0000', epg_program_start),
                                               '%Y-%m-%d %H:%M:%S%z') == potential_matching_program.start and \
-                            datetime.strptime(epg_program_stop,
+                            datetime.strptime(re.sub(r'\+00:00', '+0000', epg_program_stop),
                                               '%Y-%m-%d %H:%M:%S%z') == potential_matching_program.stop:
 
                         if smooth_streams_program.start == potential_matching_program.start and \
