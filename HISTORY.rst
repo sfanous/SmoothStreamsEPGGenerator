@@ -2,6 +2,10 @@
 
 Release History
 ===============
+1.3.1 (27-03-2019)
+------------------
+* Fix missing > in case of empty premiere and last-change elements
+
 1.3.0 (27-03-2019)
 ------------------
 * Add saxutil.escape() around every attribute or text value

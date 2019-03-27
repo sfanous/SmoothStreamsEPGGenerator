@@ -1570,7 +1570,7 @@ class EPG(object):
                                 ' lang="{0}"'.format(saxutils.escape(program.premiere['language']))
                                 if program.premiere['language'] is not None
                                 else '',
-                                ' /' if program.premiere['value'] is None
+                                ' />' if program.premiere['value'] is None
                                 else '>{0}</premiere>'.format(saxutils.escape(program.premiere['value']))))
                         # </editor-fold>
 
@@ -1580,7 +1580,7 @@ class EPG(object):
                                 ' lang="{0}"'.format(saxutils.escape(program.last_chance['language']))
                                 if program.last_chance['language'] is not None
                                 else '',
-                                ' /' if program.last_chance['value'] is None
+                                ' />' if program.last_chance['value'] is None
                                 else '>{0}</last-chance>'.format(saxutils.escape(program.last_chance['value']))))
                         # </editor-fold>
 
