@@ -1290,7 +1290,7 @@ class EPG(object):
             # <editor-fold desc="display-name">
             for display_name in channel.display_names:
                 channels_output.append('\t\t<display-name{0}>{1}</display-name>\n'.format(
-                    ' lang="{0}"'.format(display_name['language'])
+                    ' lang="{0}"'.format(saxutils.escape(display_name['language']))
                     if display_name['language'] is not None
                     else '',
                     saxutils.escape(display_name['value'])))
@@ -1299,11 +1299,11 @@ class EPG(object):
             # <editor-fold desc="icon">
             for icon in channel.icons:
                 channels_output.append('\t\t<icon {0}src="{1}"{2} />\n'.format(
-                    'height="{0}" '.format(icon['height'])
+                    'height="{0}" '.format(saxutils.escape(icon['height']))
                     if icon['height'] is not None
                     else '',
-                    icon['source'],
-                    ' width="{0}"'.format(icon['width'])
+                    saxutils.escape(icon['source']),
+                    ' width="{0}"'.format(saxutils.escape(icon['width']))
                     if icon['width'] is not None
                     else ''))
             # </editor-fold>
@@ -1318,24 +1318,25 @@ class EPG(object):
             for program in channel.programs:
                 if cutoff_date_time_in_utc > program.start and cls._startup_date_time_in_utc < program.stop:
                     programs_output.append('\t<programme start="{0}"{1}{2}{3}{4}{5} channel="{6}"{7}>\n'.format(
-                        program.start.astimezone(pytz.utc).strftime('%Y%m%d%H%M%S %z'),
-                        ' stop="{0}"'.format(program.stop.astimezone(pytz.utc).strftime('%Y%m%d%H%M%S %z'))
+                        saxutils.escape(program.start.astimezone(pytz.utc).strftime('%Y%m%d%H%M%S %z')),
+                        ' stop="{0}"'.format(
+                            saxutils.escape(program.stop.astimezone(pytz.utc).strftime('%Y%m%d%H%M%S %z')))
                         if program.stop is not None
                         else '',
-                        ' pdc-start="{0}"'.format(program.pdc_start)
+                        ' pdc-start="{0}"'.format(saxutils.escape(program.pdc_start))
                         if program.pdc_start is not None
                         else '',
-                        ' vps-start="{0}"'.format(program.vps_start)
+                        ' vps-start="{0}"'.format(saxutils.escape(program.vps_start))
                         if program.vps_start is not None
                         else '',
-                        ' showview="{0}"'.format(program.showview)
+                        ' showview="{0}"'.format(saxutils.escape(program.showview))
                         if program.showview is not None
                         else '',
-                        ' videoplus="{0}"'.format(program.videoplus)
+                        ' videoplus="{0}"'.format(saxutils.escape(program.videoplus))
                         if program.videoplus is not None
                         else '',
                         channel.id,
-                        ' clumpidx="{0}"'.format(program.clumpidx)
+                        ' clumpidx="{0}"'.format(saxutils.escape(program.clumpidx))
                         if program.clumpidx is not None
                         else ''))
 
@@ -1343,7 +1344,7 @@ class EPG(object):
                         # <editor-fold desc="title">
                         for title in program.titles:
                             programs_output.append('\t\t<title{0}>{1}</title>\n'.format(
-                                ' lang="{0}"'.format(title['language'])
+                                ' lang="{0}"'.format(saxutils.escape(title['language']))
                                 if title['language'] is not None
                                 else '',
                                 saxutils.escape(re.sub(r'Live: ', '', title['value']))))
@@ -1352,7 +1353,7 @@ class EPG(object):
                         # <editor-fold desc="sub-title">
                         for sub_title in program.sub_titles:
                             programs_output.append('\t\t<sub-title{0}>{1}</sub-title>\n'.format(
-                                ' lang="{0}"'.format(sub_title['language'])
+                                ' lang="{0}"'.format(saxutils.escape(sub_title['language']))
                                 if sub_title['language'] is not None
                                 else '',
                                 saxutils.escape(sub_title['value'])))
@@ -1364,7 +1365,7 @@ class EPG(object):
                             sub_title = program.sub_titles[0]
 
                             programs_output.append('\t\t<title{0}>{1}: {2}</title>\n'.format(
-                                ' lang="{0}"'.format(title['language'])
+                                ' lang="{0}"'.format(saxutils.escape(title['language']))
                                 if title['language'] is not None
                                 else '',
                                 saxutils.escape(re.sub(r'Live: ', '', title['value'])),
@@ -1399,7 +1400,7 @@ class EPG(object):
                                     '\t\t\t<director>{0}</director>\n'.format(saxutils.escape(director['value'])))
                             for actor in credits_['actors']:
                                 programs_output.append('\t\t\t<actor{0}>{1}</actor>\n'.format(
-                                    ' role="{0}"'.format(actor['role'])
+                                    ' role="{0}"'.format(saxutils.escape(actor['role']))
                                     if actor['role'] is not None
                                     else '',
                                     saxutils.escape(actor['value'])))
@@ -1416,8 +1417,8 @@ class EPG(object):
                                 programs_output.append(
                                     '\t\t\t<composer>{0}</composer>\n'.format(saxutils.escape(composer['value'])))
                             for editor in credits_['editors']:
-                                programs_output.append(
-                                    '\t\t\t<editor>{0}</editor>\n'.format(saxutils.escape(editor['value'])))
+                                programs_output.append('\t\t\t<editor>{0}</editor>\n'.format(
+                                    saxutils.escape(editor['value'])))
                             for presenter in credits_['presenters']:
                                 programs_output.append('\t\t\t<presenter>{0}</presenter>\n'.format(
                                     saxutils.escape(presenter['value'])))
@@ -1425,22 +1426,22 @@ class EPG(object):
                                 programs_output.append('\t\t\t<commentator>{0}</commentator>\n'.format(
                                     saxutils.escape(commentator['value'])))
                             for guest in credits_['guests']:
-                                programs_output.append('\t\t\t<guest>{0}</guest>\n'.format(saxutils.escape(
-                                    guest['value'])))
+                                programs_output.append('\t\t\t<guest>{0}</guest>\n'.format(
+                                    saxutils.escape(guest['value'])))
 
                             programs_output.append('\t\t</credits>\n')
                         # </editor-fold>
 
                         # <editor-fold desc="date">
                         if program.date is not None:
-                            programs_output.append('\t\t<date>{0}</date>\n'.format(saxutils.escape(
-                                program.date['value'])))
+                            programs_output.append('\t\t<date>{0}</date>\n'.format(
+                                saxutils.escape(program.date['value'])))
                         # </editor-fold>
 
                     # <editor-fold desc="category">
                     for category in program.categories:
                         programs_output.append('\t\t<category{0}>{1}</category>\n'.format(
-                            ' lang="{0}"'.format(category['language'])
+                            ' lang="{0}"'.format(saxutils.escape(category['language']))
                             if category['language'] is not None
                             else '',
                             saxutils.escape(category['value'])))
@@ -1450,7 +1451,7 @@ class EPG(object):
                         # <editor-fold desc="keyword">
                         for keyword in program.keywords:
                             programs_output.append('\t\t<keyword{0}>{1}</keyword>\n'.format(
-                                ' lang="{0}"'.format(keyword['language'])
+                                ' lang="{0}"'.format(saxutils.escape(keyword['language']))
                                 if keyword['language'] is not None
                                 else '',
                                 saxutils.escape(keyword['value'])))
@@ -1459,7 +1460,7 @@ class EPG(object):
                         # <editor-fold desc="language">
                         if program.language is not None:
                             programs_output.append('\t\t<language{0}>{1}</language>\n'.format(
-                                ' lang="{0}"'.format(program.language['language'])
+                                ' lang="{0}"'.format(saxutils.escape(program.language['language']))
                                 if program.language['language'] is not None
                                 else '',
                                 saxutils.escape(program.language['value'])))
@@ -1468,7 +1469,7 @@ class EPG(object):
                         # <editor-fold desc="orig-language">
                         if program.original_language is not None:
                             programs_output.append('\t\t<orig-language{0}>{1}</orig-language>\n'.format(
-                                ' lang="{0}"'.format(program.original_language['language'])
+                                ' lang="{0}"'.format(saxutils.escape(program.original_language['language']))
                                 if program.original_language['language'] is not None
                                 else '',
                                 saxutils.escape(program.original_language['value'])))
@@ -1477,18 +1478,18 @@ class EPG(object):
                         # <editor-fold desc="length">
                         if program.length is not None:
                             programs_output.append('\t\t<length units="{0}">{1}</length>\n'.format(
-                                program.length['units'],
+                                saxutils.escape(program.length['units']),
                                 saxutils.escape(program.length['value'])))
                         # </editor-fold>
 
                         # <editor-fold desc="icon">
                         for icon in program.icons:
                             programs_output.append('\t\t<icon {0}src="{1}"{2} />\n'.format(
-                                'height="{0}" '.format(icon['height'])
+                                'height="{0}" '.format(saxutils.escape(icon['height']))
                                 if icon['height'] is not None
                                 else '',
                                 icon['source'],
-                                ' width="{0}"'.format(icon['width'])
+                                ' width="{0}"'.format(saxutils.escape(icon['width']))
                                 if icon['width'] is not None
                                 else ''))
                         # </editor-fold>
@@ -1501,7 +1502,7 @@ class EPG(object):
                         # <editor-fold desc="country">
                         for country in program.countries:
                             programs_output.append('\t\t<country{0}>{1}</country>\n'.format(
-                                ' lang="{0}"'.format(country['language'])
+                                ' lang="{0}"'.format(saxutils.escape(country['language']))
                                 if country['language'] is not None
                                 else '',
                                 saxutils.escape(country['value'])))
@@ -1510,7 +1511,7 @@ class EPG(object):
                         # <editor-fold desc="episode-num">
                         for episode_number in program.episode_numbers:
                             programs_output.append('\t\t<episode-num{0}>{1}</episode-num>\n'.format(
-                                ' system="{0}"'.format(episode_number['system'])
+                                ' system="{0}"'.format(saxutils.escape(episode_number['system']))
                                 if episode_number['system'] is not None
                                 else '',
                                 saxutils.escape(episode_number['value'])))
@@ -1555,10 +1556,10 @@ class EPG(object):
                         # <editor-fold desc="previously-shown">
                         if program.previously_shown is not None:
                             programs_output.append('\t\t<previously-shown{0}{1} />\n'.format(
-                                ' start="{0}"'.format(program.previously_shown['start'])
+                                ' start="{0}"'.format(saxutils.escape(program.previously_shown['start']))
                                 if program.previously_shown['start'] is not None
                                 else '',
-                                ' channel="{0}"'.format(program.previously_shown['channel'])
+                                ' channel="{0}"'.format(saxutils.escape(program.previously_shown['channel']))
                                 if program.previously_shown['channel'] is not None
                                 else ''))
                         # </editor-fold>
@@ -1566,7 +1567,7 @@ class EPG(object):
                         # <editor-fold desc="premiere">
                         if program.premiere is not None:
                             programs_output.append('\t\t<premiere{0}{1}\n'.format(
-                                ' lang="{0}"'.format(program.premiere['language'])
+                                ' lang="{0}"'.format(saxutils.escape(program.premiere['language']))
                                 if program.premiere['language'] is not None
                                 else '',
                                 ' /' if program.premiere['value'] is None
@@ -1576,7 +1577,7 @@ class EPG(object):
                         # <editor-fold desc="last-chance">
                         if program.last_chance is not None:
                             programs_output.append('\t\t<last-chance{0}{1}\n'.format(
-                                ' lang="{0}"'.format(program.last_chance['language'])
+                                ' lang="{0}"'.format(saxutils.escape(program.last_chance['language']))
                                 if program.last_chance['language'] is not None
                                 else '',
                                 ' /' if program.last_chance['value'] is None
@@ -1591,7 +1592,7 @@ class EPG(object):
                         # <editor-fold desc="subtitles">
                         for subtitles in program.subtitles:
                             programs_output.append('\t\t<subtitles{0}{1}>\n'.format(
-                                ' type="{0}"'.format(subtitles['type'])
+                                ' type="{0}"'.format(saxutils.escape(subtitles['type']))
                                 if subtitles['type'] is not None
                                 else '',
                                 ' /'
@@ -1600,7 +1601,7 @@ class EPG(object):
 
                             if 'language' in subtitles:
                                 programs_output.append('\t\t\t<language{0}>{1}</language>\n'.format(
-                                    ' lang="{0}"'.format(subtitles['language']['language'])
+                                    ' lang="{0}"'.format(saxutils.escape(subtitles['language']['language']))
                                     if subtitles['language']['language'] is not None
                                     else '',
                                     saxutils.escape(subtitles['language']['value'])))
@@ -1611,22 +1612,23 @@ class EPG(object):
                         # <editor-fold desc="rating">
                         for rating in program.ratings:
                             programs_output.append('\t\t<rating{0}>\n'.format(
-                                ' system="{0}"'.format(rating['system'])
+                                ' system="{0}"'.format(saxutils.escape(rating['system']))
                                 if rating['system'] is not None
                                 else ''))
 
                             for icon in rating['icons']:
                                 programs_output.append('\t\t\t<icon {0}src="{1}"{2} />\n'.format(
-                                    'height="{0}" '.format(icon['height'])
+                                    'height="{0}" '.format(saxutils.escape(icon['height']))
                                     if icon['height'] is not None
                                     else '',
-                                    icon['source'],
-                                    ' width="{0}"'.format(icon['width'])
+                                    saxutils.escape(icon['source']),
+                                    ' width="{0}"'.format(saxutils.escape(icon['width']))
                                     if icon['width'] is not None
                                     else ''))
 
                             if 'value' in rating:
-                                programs_output.append('\t\t\t<value>{0}</value>\n'.format(rating['value']))
+                                programs_output.append('\t\t\t<value>{0}</value>\n'.format(
+                                    saxutils.escape(rating['value']['value'])))
 
                             programs_output.append('\t\t</rating>\n')
                         # </editor-fold>
@@ -1634,22 +1636,23 @@ class EPG(object):
                         # <editor-fold desc="star-rating">
                         for star_rating in program.star_ratings:
                             programs_output.append('\t\t<star-rating{0}>\n'.format(
-                                ' system="{0}"'.format(star_rating['system'])
+                                ' system="{0}"'.format(saxutils.escape(star_rating['system']))
                                 if star_rating['system'] is not None
                                 else ''))
 
                             for icon in star_rating['icons']:
                                 programs_output.append('\t\t\t<icon {0}src="{1}"{2} />\n'.format(
-                                    'height="{0}" '.format(icon['height'])
+                                    'height="{0}" '.format(saxutils.escape(icon['height']))
                                     if icon['height'] is not None
                                     else '',
-                                    icon['source'],
-                                    ' width="{0}"'.format(icon['width'])
+                                    saxutils.escape(icon['source']),
+                                    ' width="{0}"'.format(saxutils.escape(icon['width']))
                                     if icon['width'] is not None
                                     else ''))
 
                             if 'value' in star_rating:
-                                programs_output.append('\t\t\t<value>{0}</value>\n'.format(star_rating['value']))
+                                programs_output.append('\t\t\t<value>{0}</value>\n'.format(
+                                    saxutils.escape(star_rating['value']['value'])))
 
                             programs_output.append('\t\t</star-rating>\n')
                         # </editor-fold>
@@ -1657,14 +1660,14 @@ class EPG(object):
                         # <editor-fold desc="review">
                         for review in program.reviews:
                             programs_output.append('\t\t<review type="{0}"{1}{2}{3}>{4}</review>\n'.format(
-                                review['type'],
-                                ' source="{0}"'.format(review['source'])
+                                saxutils.escape(review['type']),
+                                ' source="{0}"'.format(saxutils.escape(review['source']))
                                 if review['source'] is not None
                                 else '',
-                                ' reviewer="{0}"'.format(review['reviewer'])
+                                ' reviewer="{0}"'.format(saxutils.escape(review['reviewer']))
                                 if review['reviewer'] is not None
                                 else '',
-                                ' lang="{0}"'.format(review['language'])
+                                ' lang="{0}"'.format(saxutils.escape(review['language']))
                                 if review['language'] is not None
                                 else '',
                                 saxutils.escape(review['value'])))

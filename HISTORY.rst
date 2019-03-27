@@ -2,6 +2,10 @@
 
 Release History
 ===============
+1.3.0 (27-03-2019)
+------------------
+* Add saxutil.escape() around every attribute or text value
+
 1.2.1 (24-03-2019)
 ------------------
 * Fix bug in _find_forced_matched_program. The %z directive can only handle UTC offsets with a colon starting Python 3.7
