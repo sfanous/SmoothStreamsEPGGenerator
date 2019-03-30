@@ -2,6 +2,10 @@
 
 Release History
 ===============
+1.3.2 (30-03-2019)
+------------------
+* Don't generate XMLTV from Rovi unless XMLTV file doesn't exist or is stale (Over 18 hours old)
+
 1.3.1 (27-03-2019)
 ------------------
 * Fix missing > in case of empty premiere and last-change elements
