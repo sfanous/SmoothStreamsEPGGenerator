@@ -1294,6 +1294,8 @@ class EPG(object):
                     if display_name['language'] is not None
                     else '',
                     saxutils.escape(display_name['value'])))
+
+            channels_output.append('\t\t<display-name>{0}</display-name>\n'.format(channel.id))
             # </editor-fold>
 
             # <editor-fold desc="icon">
@@ -1994,9 +1996,7 @@ class EPG(object):
                                                          'value': sub_element.text}
                         elif sub_element.tag == 'premiere':
                             program.premiere = {'language': sub_element.get('lang'),
-                                                'value': sub_element.text
-                                                if sub_element.text
-                                                else sub_element.text}
+                                                'value': sub_element.text}
                         elif sub_element.tag == 'previously-shown':
                             program.previously_shown = {'channel': sub_element.get('channel'),
                                                         'start': sub_element.get('start')}
@@ -2032,9 +2032,7 @@ class EPG(object):
                             program.add_star_rating(star_rating)
                         elif sub_element.tag == 'sub-title':
                             program.add_sub_title({'language': sub_element.get('lang'),
-                                                   'value': sub_element.text
-                                                   if sub_element.text
-                                                   else sub_element.text})
+                                                   'value': sub_element.text})
                         elif sub_element.tag == 'subtitles':
                             subtitle = {'type': sub_element.get('type')}
 

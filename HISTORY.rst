@@ -2,6 +2,10 @@
 
 Release History
 ===============
+1.3.3 (30-04-2019)
+------------------
+* Add display-name element with channel number to output XMLTV files
+
 1.3.2 (30-03-2019)
 ------------------
 * Don't generate XMLTV from Rovi unless XMLTV file doesn't exist or is stale (Over 18 hours old)
