@@ -2269,7 +2269,8 @@ class EPG(object):
 
         for mc2xml_channel_id in Utility.read_file(
                 os.path.join(DEFAULT_MC2XML_DIRECTORY_PATH, mc2xml_country, 'mc2xml.chl')).split('\n'):
-            cls._mc2xml_channel_ids_map[mc2xml_channel_id] = False
+            if mc2xml_channel_id.strip()[0] != '#':
+                cls._mc2xml_channel_ids_map[mc2xml_channel_id] = False
 
     @classmethod
     def _relax_merge_smooth_streams_epg(cls):

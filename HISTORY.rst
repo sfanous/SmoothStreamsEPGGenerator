@@ -2,6 +2,10 @@
 
 Release History
 ===============
+1.3.4 (18-06-2019)
+------------------
+* Ignore commented out channel ids in mc2xml.chl files
+
 1.3.3 (30-04-2019)
 ------------------
 * Add display-name element with channel number to output XMLTV files
