@@ -2,6 +2,10 @@
 
 Release History
 ===============
+1.3.5 (27-09-2019)
+------------------
+* Update mapping
+
 1.3.4 (18-06-2019)
 ------------------
 * Ignore commented out channel ids in mc2xml.chl files
