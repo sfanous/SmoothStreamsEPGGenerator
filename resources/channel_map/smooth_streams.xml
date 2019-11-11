@@ -117,7 +117,7 @@
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/29.png" />
 	 </channel>
 	<channel id="30">
-		<display-name>SYFY</display-name>
+		<display-name>CBS</display-name>
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/30.png" />
 	 </channel>
 	<channel id="31">
@@ -141,15 +141,15 @@
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/35.png" />
 	 </channel>
 	<channel id="36">
-		<display-name>Channel 36</display-name>
+		<display-name>Fox</display-name>
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/36.png" />
 	 </channel>
 	<channel id="37">
-		<display-name>CBC News Network</display-name>
+		<display-name>TLC</display-name>
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/37.png" />
 	 </channel>
 	<channel id="38">
-		<display-name>CBC</display-name>
+		<display-name>Fox News</display-name>
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/38.png" />
 	 </channel>
 	<channel id="39">
@@ -241,15 +241,15 @@
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/60.png" />
 	 </channel>
 	<channel id="61">
-		<display-name>Fox</display-name>
+		<display-name>Channel 61</display-name>
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/61.png" />
 	 </channel>
 	<channel id="62">
-		<display-name>TLC</display-name>
+		<display-name>Channel 62</display-name>
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/62.png" />
 	 </channel>
 	<channel id="63">
-		<display-name>CBS</display-name>
+		<display-name>CBC</display-name>
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/36.png" />
 	 </channel>
 	<channel id="64">
@@ -257,7 +257,7 @@
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/37.png" />
 	 </channel>
 	<channel id="65">
-		<display-name>Channel 65</display-name>
+		<display-name>TSN 4</display-name>
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/65.png" />
 	 </channel>
 	<channel id="66">
@@ -281,15 +281,15 @@
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/70.png" />
 	 </channel>
 	<channel id="71">
-		<display-name>US Feed</display-name>
+		<display-name>BBC World</display-name>
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/71.png" />
 	 </channel>
 	<channel id="72">
-		<display-name>Eleven Sports Network</display-name>
+		<display-name>fuboTV</display-name>
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/72.png" />
 	 </channel>
 	<channel id="73">
-		<display-name>Spectrum SportsNet</display-name>
+		<display-name>Eleven Sports Network</display-name>
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/73.png" />
 	 </channel>
 	<channel id="74">
@@ -301,15 +301,15 @@
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/75.png" />
 	 </channel>
 	<channel id="76">
-		<display-name>Channel 76</display-name>
+		<display-name>BTN</display-name>
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/76.png" />
 	 </channel>
 	<channel id="77">
-		<display-name>Channel 77</display-name>
+		<display-name>Cooking Channel</display-name>
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/77.png" />
 	 </channel>
 	<channel id="78">
-		<display-name>Channel 78</display-name>
+		<display-name>BBC America</display-name>
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/78.png" />
 	 </channel>
 	<channel id="79">
@@ -397,7 +397,7 @@
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/99.png" />
 	 </channel>
 	<channel id="100">
-		<display-name>Movistar Deportes</display-name>
+		<display-name>Movistar Liga de Campeones</display-name>
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/100.png" />
 	 </channel>
 	<channel id="101">
@@ -501,7 +501,7 @@
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/125.png" />
 	 </channel>
 	<channel id="126">
-		<display-name>Fox News</display-name>
+		<display-name>Channel 126</display-name>
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/126.png" />
 	 </channel>
 	<channel id="127">
