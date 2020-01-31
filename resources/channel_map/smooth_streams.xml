@@ -281,7 +281,7 @@
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/70.png" />
 	 </channel>
 	<channel id="71">
-		<display-name>BBC World</display-name>
+		<display-name>BBC World News</display-name>
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/71.png" />
 	 </channel>
 	<channel id="72">
@@ -485,7 +485,7 @@
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/121.png" />
 	 </channel>
 	<channel id="122">
-		<display-name>Racing UK</display-name>
+		<display-name>Channel 122</display-name>
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/122.png" />
 	 </channel>
 	<channel id="123">
@@ -597,7 +597,7 @@
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/149.png" />
 	 </channel>
 	<channel id="150">
-		<display-name>Channel 150</display-name>
+		<display-name>CP24</display-name>
 		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/150.png" />
 	 </channel>
  </tv>
