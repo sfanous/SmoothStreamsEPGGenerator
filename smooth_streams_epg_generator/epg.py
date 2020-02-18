@@ -2268,7 +2268,7 @@ class EPG(object):
         cls._mc2xml_channel_ids_map = {}
 
         for mc2xml_channel_id in Utility.read_file(
-                os.path.join(DEFAULT_MC2XML_DIRECTORY_PATH, mc2xml_country, 'mc2xml.chl')).split('\n'):
+                os.path.join(DEFAULT_MC2XML_DIRECTORY_PATH, mc2xml_country, 'mc2xml.chl')).strip().split('\n'):
             if mc2xml_channel_id.strip()[0] != '#':
                 cls._mc2xml_channel_ids_map[mc2xml_channel_id] = False
 
@@ -3517,7 +3517,7 @@ class EPG(object):
                 cls._parse_epg_xml(os.path.join(DEFAULT_INPUT_XMLTV_DIRECTORY_PATH, xmltv_file_name),
                                    parse_channels=False)
 
-                cls._validate_mc2xml_source_channels()
+                # cls._validate_mc2xml_source_channels()
 
         cls._validate_source_channels()
 
