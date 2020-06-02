@@ -1,9 +1,12 @@
+import distutils.util
 import logging
 import sys
 
 from configobj import ConfigObj
 
+from .constants import DEFAULT_GMAIL_ENABLED
 from .constants import DEFAULT_LOGGING_LEVEL
+from .constants import VALID_GMAIL_ENABLED_VALUES
 from .constants import VALID_LOGGING_LEVEL_VALUES
 from .utilities import Utility
 
@@ -38,6 +41,7 @@ class Configuration(object):
             schedules_direct_username = None
             schedules_direct_password = None
             schedules_direct_listings = None
+            gmail_enabled = DEFAULT_GMAIL_ENABLED
             gmail_username = None
             gmail_password = None
             logging_level = DEFAULT_LOGGING_LEVEL
@@ -105,6 +109,25 @@ class Configuration(object):
             # <editor-fold desc="Read GMail section">
             try:
                 gmail_section = configuration_object['GMail']
+
+                try:
+                    gmail_enabled = distutils.util.strtobool(gmail_section['enabled'])
+                except KeyError:
+                    error_messages.append('Could not find an enabled option within the [GMail] section\n'
+                                          'The enabled option within the [GMail] section must be one of\n'
+                                          '{0}\n'
+                                          'Defaulting to {1}\n'.format('\n'.join(['\u2022 {0}'.format(service)
+                                                                                  for service in
+                                                                                  VALID_GMAIL_ENABLED_VALUES]),
+                                                                       gmail_enabled))
+                except ValueError:
+                    error_messages.append('The enabled option in the [GMail] section has an invalid value\n'
+                                          'The enabled option within the [GMail] section must be one of\n'
+                                          '{0}\n'
+                                          'Defaulting to {1}\n'.format('\n'.join(['\u2022 {0}'.format(service)
+                                                                                  for service in
+                                                                                  VALID_GMAIL_ENABLED_VALUES]),
+                                                                       gmail_enabled))
 
                 try:
                     gmail_username = gmail_section['username']
@@ -178,6 +201,7 @@ class Configuration(object):
                     'SCHEDULES_DIRECT_USERNAME': schedules_direct_username,
                     'SCHEDULES_DIRECT_PASSWORD': schedules_direct_password,
                     'SCHEDULES_DIRECT_LISTINGS': schedules_direct_listings,
+                    'GMAIL_ENABLED': gmail_enabled,
                     'GMAIL_USERNAME': gmail_username,
                     'GMAIL_PASSWORD': gmail_password,
                     'LOGGING_LEVEL': logging_level
@@ -191,18 +215,20 @@ class Configuration(object):
                             'SchedulesDirect username => {4}\n'
                             'SchedulesDirect password => {5}\n'
                             'SchedulesDirect listings => {6}\n'
-                            'GMail username           => {7}\n'
-                            'GMail password           => {8}\n'
-                            'Logging level            => {9}'.format(configuration_file_path,
-                                                                     rovi_api_key,
-                                                                     rovi_shared_secret,
-                                                                     rovi_listings,
-                                                                     schedules_direct_username,
-                                                                     schedules_direct_password,
-                                                                     schedules_direct_listings,
-                                                                     gmail_username,
-                                                                     gmail_password,
-                                                                     logging_level))
+                            'GMail enabled            => {7}\n'
+                            'GMail username           => {8}\n'
+                            'GMail password           => {9}\n'
+                            'Logging level            => {10}'.format(configuration_file_path,
+                                                                      rovi_api_key,
+                                                                      rovi_shared_secret,
+                                                                      rovi_listings,
+                                                                      schedules_direct_username,
+                                                                      schedules_direct_password,
+                                                                      schedules_direct_listings,
+                                                                      bool(gmail_enabled),
+                                                                      gmail_username,
+                                                                      gmail_password,
+                                                                      logging_level))
         except OSError:
             logger.error('Could not open the specified configuration file for reading\n'
                          'Configuration file path => {0}\n\n'

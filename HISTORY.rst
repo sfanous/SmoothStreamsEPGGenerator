@@ -2,6 +2,10 @@
 
 Release History
 ===============
+1.3.7.5 (06-02-2020)
+------------------
+* Make sending of email through GMail optional.
+
 1.3.7.3 (02-18-2020)
 ------------------
 * Minor enhancements

@@ -60,7 +60,7 @@ def main():
         logger.error(error)
         Error.add_error(error)
     finally:
-        if Error.has_errors():
+        if Configuration.get_configuration_parameter('GMAIL_ENABLED') and Error.has_errors():
             Notifier.send_email('\n{0}\n'.format('*' * 120).join(Error.get_errors()))
 
     logger.info('Shutdown SmoothStreams EPG Generator {0}'.format(VERSION))

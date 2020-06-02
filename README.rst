@@ -7,7 +7,7 @@ SmoothStreamsEPGGenerator is a full EPG generator for SmoothStreams.
 
 Installation
 ============
-At this point the only way to install IPTVProxy is by downloading `git <https://git-scm.com/downloads>`_ and cloning the repository
+At this point the only way to install SmoothStreamsEPGGenerator is by downloading `git <https://git-scm.com/downloads>`_ and cloning the repository
 
 .. code-block:: bash
 
@@ -76,6 +76,8 @@ listings
 #####
 GMail
 #####
+Enabled
+    * Whether to send an email or not
 Username
     * The GMail account username
 Password

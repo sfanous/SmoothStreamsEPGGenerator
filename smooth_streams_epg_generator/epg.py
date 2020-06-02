@@ -1805,7 +1805,8 @@ class EPG(object):
     def _is_match_found(cls, smooth_streams_program, epg_program, match_tuples, do_perform_safe_match=True):
         for match_tuple in match_tuples:
             token_sort_ratio_score = fuzz.token_sort_ratio(match_tuple[0], match_tuple[1])
-            jaro_winkler_distance = int(round(jellyfish.jaro_winkler(match_tuple[0], match_tuple[1]), 2) * 100)
+            jaro_winkler_distance = int(
+                round(jellyfish.jaro_winkler_similarity(match_tuple[0], match_tuple[1]), 2) * 100)
             if do_perform_safe_match:
                 if token_sort_ratio_score >= SAFE_FUZZY_MATCH_PERCENTAGE or \
                         jaro_winkler_distance >= SAFE_FUZZY_MATCH_PERCENTAGE:

@@ -1,603 +1,603 @@
 <?xml version="1.0" encoding="utf-8"?>
 <tv>
-	<channel id="1">
-		<display-name>ESPNews</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/1.png" />
-	 </channel>
-	<channel id="2">
-		<display-name>ESPN</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/2.png" />
-	 </channel>
-	<channel id="3">
-		<display-name>ESPN 2</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/3.png" />
-	 </channel>
-	<channel id="4">
-		<display-name>ESPN U</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/4.png" />
-	 </channel>
-	<channel id="5">
-		<display-name>Fox Sports 1</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/5.png" />
-	 </channel>
-	<channel id="6">
-		<display-name>Fox Sports 2</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/6.png" />
-	 </channel>
-	<channel id="7">
-		<display-name>NFL Network</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/7.png" />
-	 </channel>
-	<channel id="8">
-		<display-name>NBA TV</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/8.png" />
-	 </channel>
-	<channel id="9">
-		<display-name>MLB Network</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/9.png" />
-	 </channel>
-	<channel id="10">
-		<display-name>NHL Network</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/10.png" />
-	 </channel>
-	<channel id="11">
-		<display-name>NBC Sports Network</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/11.png" />
-	 </channel>
-	<channel id="12">
-		<display-name>Golf Channel</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/12.png" />
-	 </channel>
-	<channel id="13">
-		<display-name>Tennis Channel</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/13.png" />
-	 </channel>
-	<channel id="14">
-		<display-name>CBS Sports Network</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/14.png" />
-	 </channel>
-	<channel id="15">
-		<display-name>Fight Network</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/15.png" />
-	 </channel>
-	<channel id="16">
-		<display-name>WWE Network</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/16.png" />
-	 </channel>
-	<channel id="17">
-		<display-name>Sportsnet World</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/17.png" />
-	 </channel>
-	<channel id="18">
-		<display-name>Sportsnet 360</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/18.png" />
-	 </channel>
-	<channel id="19">
-		<display-name>Sportsnet Ontario</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/19.png" />
-	 </channel>
-	<channel id="20">
-		<display-name>Sportsnet One</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/20.png" />
-	 </channel>
-	<channel id="21">
-		<display-name>TSN 1</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/21.png" />
-	 </channel>
-	<channel id="22">
-		<display-name>Univision Deportes</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/22.png" />
-	 </channel>
-	<channel id="23">
-		<display-name>ESPN Deportes</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/23.png" />
-	 </channel>
-	<channel id="24">
-		<display-name>Comedy Central</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/24.png" />
-	 </channel>
-	<channel id="25">
-		<display-name>Paramount Network</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/25.png" />
-	 </channel>
-	<channel id="26">
-		<display-name>USA</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/26.png" />
-	 </channel>
-	<channel id="27">
-		<display-name>A&amp;E</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/27.png" />
-	 </channel>
-	<channel id="28">
-		<display-name>TBS</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/28.png" />
-	 </channel>
-	<channel id="29">
-		<display-name>TNT</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/29.png" />
-	 </channel>
-	<channel id="30">
-		<display-name>CBS</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/30.png" />
-	 </channel>
-	<channel id="31">
-		<display-name>Cartoon Network</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/31.png" />
-	 </channel>
-	<channel id="32">
-		<display-name>HGTV</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/32.png" />
-	 </channel>
-	<channel id="33">
-		<display-name>CNN</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/33.png" />
-	 </channel>
-	<channel id="34">
-		<display-name>NBC</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/34.png" />
-	 </channel>
-	<channel id="35">
-		<display-name>ABC</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/35.png" />
-	 </channel>
-	<channel id="36">
-		<display-name>Fox</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/36.png" />
-	 </channel>
-	<channel id="37">
-		<display-name>TLC</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/37.png" />
-	 </channel>
-	<channel id="38">
-		<display-name>Fox News</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/38.png" />
-	 </channel>
-	<channel id="39">
-		<display-name>Channel 39</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/39.png" />
-	 </channel>
-	<channel id="40">
-		<display-name>Channel 40</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/40.png" />
-	 </channel>
-	<channel id="41">
-		<display-name>History</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/41.png" />
-	 </channel>
-	<channel id="42">
-		<display-name>Discovery Channel</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/42.png" />
-	 </channel>
-	<channel id="43">
-		<display-name>National Geographic</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/43.png" />
-	 </channel>
-	<channel id="44">
-		<display-name>FX</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/44.png" />
-	 </channel>
-	<channel id="45">
-		<display-name>FXX</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/45.png" />
-	 </channel>
-	<channel id="46">
-		<display-name>CNBC</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/46.png" />
-	 </channel>
-	<channel id="47">
-		<display-name>AMC</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/47.png" />
-	 </channel>
-	<channel id="48">
-		<display-name>HBO</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/48.png" />
-	 </channel>
-	<channel id="49">
-		<display-name>HBO Comedy</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/49.png" />
-	 </channel>
-	<channel id="50">
-		<display-name>Food Network</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/50.png" />
-	 </channel>
-	<channel id="51">
-		<display-name>HBO Zone</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/51.png" />
-	 </channel>
-	<channel id="52">
-		<display-name>Showtime</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/52.png" />
-	 </channel>
-	<channel id="53">
-		<display-name>Cinemax ActionMax</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/53.png" />
-	 </channel>
-	<channel id="54">
-		<display-name>Cinemax MoreMax</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/54.png" />
-	 </channel>
-	<channel id="55">
-		<display-name>Starz Cinema</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/55.png" />
-	 </channel>
-	<channel id="56">
-		<display-name>Starz</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/56.png" />
-	 </channel>
-	<channel id="57">
-		<display-name>Starz Encore</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/57.png" />
-	 </channel>
-	<channel id="58">
-		<display-name>Investigation Discovery</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/58.png" />
-	 </channel>
-	<channel id="59">
-		<display-name>Cinemax</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/59.png" />
-	 </channel>
-	<channel id="60">
-		<display-name>Cinemax 5StarMax</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/60.png" />
-	 </channel>
-	<channel id="61">
-		<display-name>Channel 61</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/61.png" />
-	 </channel>
-	<channel id="62">
-		<display-name>Channel 62</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/62.png" />
-	 </channel>
-	<channel id="63">
-		<display-name>CBC</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/36.png" />
-	 </channel>
-	<channel id="64">
-		<display-name>Channel 64</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/37.png" />
-	 </channel>
-	<channel id="65">
-		<display-name>TSN 4</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/65.png" />
-	 </channel>
-	<channel id="66">
-		<display-name>City</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/66.png" />
-	 </channel>
-	<channel id="67">
-		<display-name>Global</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/67.png" />
-	 </channel>
-	<channel id="68">
-		<display-name>CTV</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/68.png" />
-	 </channel>
-	<channel id="69">
-		<display-name>CTV Two</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/69.png" />
-	 </channel>
-	<channel id="70">
-		<display-name>PAC-12</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/70.png" />
-	 </channel>
-	<channel id="71">
-		<display-name>BBC World News</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/71.png" />
-	 </channel>
-	<channel id="72">
-		<display-name>fuboTV</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/72.png" />
-	 </channel>
-	<channel id="73">
-		<display-name>Eleven Sports Network</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/73.png" />
-	 </channel>
-	<channel id="74">
-		<display-name>MMA TV 1</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/74.png" />
-	 </channel>
-	<channel id="75">
-		<display-name>MMA TV 2</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/75.png" />
-	 </channel>
-	<channel id="76">
-		<display-name>Big Ten Network</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/76.png" />
-	 </channel>
-	<channel id="77">
-		<display-name>Cooking Channel</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/77.png" />
-	 </channel>
-	<channel id="78">
-		<display-name>BBC America</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/78.png" />
-	 </channel>
-	<channel id="79">
-		<display-name>Channel 79</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/79.png" />
-	 </channel>
-	<channel id="80">
-		<display-name>Willow</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/80.png" />
-	 </channel>
-	<channel id="81">
-		<display-name>European Feed</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/81.png" />
-	 </channel>
-	<channel id="82">
-		<display-name>European Feed</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/82.png" />
-	 </channel>
-	<channel id="83">
-		<display-name>European Feed</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/83.png" />
-	 </channel>
-	<channel id="84">
-		<display-name>European Feed</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/84.png" />
-	 </channel>
-	<channel id="85">
-		<display-name>European Feed</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/85.png" />
-	 </channel>
-	<channel id="86">
-		<display-name>European Feed</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/86.png" />
-	 </channel>
-	<channel id="87">
-		<display-name>European Feed</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/87.png" />
-	 </channel>
-	<channel id="88">
-		<display-name>European Feed</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/88.png" />
-	 </channel>
-	<channel id="89">
-		<display-name>European Feed</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/89.png" />
-	 </channel>
-	<channel id="90">
-		<display-name>European Feed</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/90.png" />
-	 </channel>
-	<channel id="91">
-		<display-name>European Feed</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/91.png" />
-	 </channel>
-	<channel id="92">
-		<display-name>European Feed</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/92.png" />
-	 </channel>
-	<channel id="93">
-		<display-name>European Feed</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/93.png" />
-	 </channel>
-	<channel id="94">
-		<display-name>European Feed</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/94.png" />
-	 </channel>
-	<channel id="95">
-		<display-name>European Feed</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/95.png" />
-	 </channel>
-	<channel id="96">
-		<display-name>European Feed</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/96.png" />
-	 </channel>
-	<channel id="97">
-		<display-name>European Feed</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/97.png" />
-	 </channel>
-	<channel id="98">
-		<display-name>European Feed</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/98.png" />
-	 </channel>
-	<channel id="99">
-		<display-name>European Feed</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/99.png" />
-	 </channel>
-	<channel id="100">
-		<display-name>Movistar Liga de Campeones</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/100.png" />
-	 </channel>
-	<channel id="101">
-		<display-name>Sport TV 1</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/101.png" />
-	 </channel>
-	<channel id="102">
-		<display-name>Sport TV 2</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/102.png" />
-	 </channel>
-	<channel id="103">
-		<display-name>European Feed</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/103.png" />
-	 </channel>
-	<channel id="104">
-		<display-name>European Feed</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/104.png" />
-	 </channel>
-	<channel id="105">
-		<display-name>Eurosport 1</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/105.png" />
-	 </channel>
-	<channel id="106">
-		<display-name>Eurosport 2</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/106.png" />
-	 </channel>
-	<channel id="107">
-		<display-name>Eir Sport 2</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/107.png" />
-	 </channel>
-	<channel id="108">
-		<display-name>BT Sport 1</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/108.png" />
-	 </channel>
-	<channel id="109">
-		<display-name>BT Sport 2</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/109.png" />
-	 </channel>
-	<channel id="110">
-		<display-name>BT Sport 3</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/110.png" />
-	 </channel>
-	<channel id="111">
-		<display-name>BT Sport ESPN</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/111.png" />
-	 </channel>
-	<channel id="112">
-		<display-name>Sky Sports News</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/112.png" />
-	 </channel>
-	<channel id="113">
-		<display-name>Sky Sports Main Event</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/113.png" />
-	 </channel>
-	<channel id="114">
-		<display-name>Sky Sports Cricket</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/114.png" />
-	 </channel>
-	<channel id="115">
-		<display-name>Sky Sports Action</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/115.png" />
-	 </channel>
-	<channel id="116">
-		<display-name>Sky Sports Golf</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/116.png" />
-	 </channel>
-	<channel id="117">
-		<display-name>Sky Sports Premier League</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/117.png" />
-	 </channel>
-	<channel id="118">
-		<display-name>Sky Sports F1</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/118.png" />
-	 </channel>
-	<channel id="119">
-		<display-name>Sky Sports Mix</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/119.png" />
-	 </channel>
-	<channel id="120">
-		<display-name>Sky Sports Football</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/120.png" />
-	 </channel>
-	<channel id="121">
-		<display-name>Sky Sports Arena</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/121.png" />
-	 </channel>
-	<channel id="122">
-		<display-name>Channel 122</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/122.png" />
-	 </channel>
-	<channel id="123">
-		<display-name>beIN Sports USA</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/123.png" />
-	 </channel>
-	<channel id="124">
-		<display-name>beIN Sports En Espanol</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/124.png" />
-	 </channel>
-	<channel id="125">
-		<display-name>UFC Fight Pass</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/125.png" />
-	 </channel>
-	<channel id="126">
-		<display-name>Channel 126</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/126.png" />
-	 </channel>
-	<channel id="127">
-		<display-name>MSNBC</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/127.png" />
-	 </channel>
-	<channel id="128">
-		<display-name>Channel 128</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/128.png" />
-	 </channel>
-	<channel id="129">
-		<display-name>Channel 129</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/129.png" />
-	 </channel>
-	<channel id="130">
-		<display-name>Channel 130</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/130.png" />
-	 </channel>
-	<channel id="131">
-		<display-name>Lifetime Channel</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/131.png" />
-	 </channel>
-	<channel id="132">
-		<display-name>Hallmark Channel</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/132.png" />
-	 </channel>
-	<channel id="133">
-		<display-name>Channel 133</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/133.png" />
-	 </channel>
-	<channel id="134">
-		<display-name>Channel 134</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/134.png" />
-	 </channel>
-	<channel id="135">
-		<display-name>Channel 135</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/135.png" />
-	 </channel>
-	<channel id="136">
-		<display-name>Channel 136</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/136.png" />
-	 </channel>
-	<channel id="137">
-		<display-name>Channel 137</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/137.png" />
-	 </channel>
-	<channel id="138">
-		<display-name>Channel 138</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/138.png" />
-	 </channel>
-	<channel id="139">
-		<display-name>Channel 139</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/139.png" />
-	 </channel>
-	<channel id="140">
-		<display-name>Channel 140</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/140.png" />
-	 </channel>
-	<channel id="141">
-		<display-name>Channel 141</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/141.png" />
-	 </channel>
-	<channel id="142">
-		<display-name>Channel 142</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/142.png" />
-	 </channel>
-	<channel id="143">
-		<display-name>Channel 143</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/143.png" />
-	 </channel>
-	<channel id="144">
-		<display-name>Channel 144</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/144.png" />
-	 </channel>
-	<channel id="145">
-		<display-name>The Weather Channel</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/145.png" />
-	 </channel>
-	<channel id="146">
-		<display-name>Channel 146</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/146.png" />
-	 </channel>
-	<channel id="147">
-		<display-name>Channel 147</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/147.png" />
-	 </channel>
-	<channel id="148">
-		<display-name>Channel 148</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/148.png" />
-	 </channel>
-	<channel id="149">
-		<display-name>Channel 149</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/149.png" />
-	 </channel>
-	<channel id="150">
-		<display-name>CP24</display-name>
-		<icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/150.png" />
-	 </channel>
- </tv>
+    <channel id="1">
+        <display-name>ESPNews</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/1.png"/>
+    </channel>
+    <channel id="2">
+        <display-name>ESPN</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/2.png"/>
+    </channel>
+    <channel id="3">
+        <display-name>ESPN 2</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/3.png"/>
+    </channel>
+    <channel id="4">
+        <display-name>ESPN U</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/4.png"/>
+    </channel>
+    <channel id="5">
+        <display-name>Fox Sports 1</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/5.png"/>
+    </channel>
+    <channel id="6">
+        <display-name>Fox Sports 2</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/6.png"/>
+    </channel>
+    <channel id="7">
+        <display-name>NFL Network</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/7.png"/>
+    </channel>
+    <channel id="8">
+        <display-name>NBA TV</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/8.png"/>
+    </channel>
+    <channel id="9">
+        <display-name>MLB Network</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/9.png"/>
+    </channel>
+    <channel id="10">
+        <display-name>NHL Network</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/10.png"/>
+    </channel>
+    <channel id="11">
+        <display-name>NBC Sports Network</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/11.png"/>
+    </channel>
+    <channel id="12">
+        <display-name>Golf Channel</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/12.png"/>
+    </channel>
+    <channel id="13">
+        <display-name>Tennis Channel</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/13.png"/>
+    </channel>
+    <channel id="14">
+        <display-name>CBS Sports Network</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/14.png"/>
+    </channel>
+    <channel id="15">
+        <display-name>Fight Network</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/15.png"/>
+    </channel>
+    <channel id="16">
+        <display-name>WWE Network</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/16.png"/>
+    </channel>
+    <channel id="17">
+        <display-name>Sportsnet World</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/17.png"/>
+    </channel>
+    <channel id="18">
+        <display-name>Sportsnet 360</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/18.png"/>
+    </channel>
+    <channel id="19">
+        <display-name>Sportsnet Ontario</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/19.png"/>
+    </channel>
+    <channel id="20">
+        <display-name>Sportsnet One</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/20.png"/>
+    </channel>
+    <channel id="21">
+        <display-name>TSN 1</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/21.png"/>
+    </channel>
+    <channel id="22">
+        <display-name>Univision Deportes</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/22.png"/>
+    </channel>
+    <channel id="23">
+        <display-name>ESPN Deportes</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/23.png"/>
+    </channel>
+    <channel id="24">
+        <display-name>Comedy Central</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/24.png"/>
+    </channel>
+    <channel id="25">
+        <display-name>Paramount Network</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/25.png"/>
+    </channel>
+    <channel id="26">
+        <display-name>USA</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/26.png"/>
+    </channel>
+    <channel id="27">
+        <display-name>A&amp;E</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/27.png"/>
+    </channel>
+    <channel id="28">
+        <display-name>TBS</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/28.png"/>
+    </channel>
+    <channel id="29">
+        <display-name>TNT</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/29.png"/>
+    </channel>
+    <channel id="30">
+        <display-name>CBS</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/30.png"/>
+    </channel>
+    <channel id="31">
+        <display-name>Cartoon Network</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/31.png"/>
+    </channel>
+    <channel id="32">
+        <display-name>HGTV</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/32.png"/>
+    </channel>
+    <channel id="33">
+        <display-name>CNN</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/33.png"/>
+    </channel>
+    <channel id="34">
+        <display-name>NBC</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/34.png"/>
+    </channel>
+    <channel id="35">
+        <display-name>ABC</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/35.png"/>
+    </channel>
+    <channel id="36">
+        <display-name>Fox</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/36.png"/>
+    </channel>
+    <channel id="37">
+        <display-name>TLC</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/37.png"/>
+    </channel>
+    <channel id="38">
+        <display-name>Fox News</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/38.png"/>
+    </channel>
+    <channel id="39">
+        <display-name>Channel 39</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/39.png"/>
+    </channel>
+    <channel id="40">
+        <display-name>Channel 40</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/40.png"/>
+    </channel>
+    <channel id="41">
+        <display-name>History</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/41.png"/>
+    </channel>
+    <channel id="42">
+        <display-name>Discovery Channel</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/42.png"/>
+    </channel>
+    <channel id="43">
+        <display-name>National Geographic</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/43.png"/>
+    </channel>
+    <channel id="44">
+        <display-name>FX</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/44.png"/>
+    </channel>
+    <channel id="45">
+        <display-name>FXX</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/45.png"/>
+    </channel>
+    <channel id="46">
+        <display-name>CNBC</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/46.png"/>
+    </channel>
+    <channel id="47">
+        <display-name>AMC</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/47.png"/>
+    </channel>
+    <channel id="48">
+        <display-name>HBO</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/48.png"/>
+    </channel>
+    <channel id="49">
+        <display-name>HBO Comedy</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/49.png"/>
+    </channel>
+    <channel id="50">
+        <display-name>Food Network</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/50.png"/>
+    </channel>
+    <channel id="51">
+        <display-name>HBO Zone</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/51.png"/>
+    </channel>
+    <channel id="52">
+        <display-name>Showtime</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/52.png"/>
+    </channel>
+    <channel id="53">
+        <display-name>Cinemax ActionMax</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/53.png"/>
+    </channel>
+    <channel id="54">
+        <display-name>Cinemax MoreMax</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/54.png"/>
+    </channel>
+    <channel id="55">
+        <display-name>Starz Cinema</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/55.png"/>
+    </channel>
+    <channel id="56">
+        <display-name>Starz</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/56.png"/>
+    </channel>
+    <channel id="57">
+        <display-name>Starz Encore</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/57.png"/>
+    </channel>
+    <channel id="58">
+        <display-name>Investigation Discovery</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/58.png"/>
+    </channel>
+    <channel id="59">
+        <display-name>Cinemax</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/59.png"/>
+    </channel>
+    <channel id="60">
+        <display-name>Cinemax 5StarMax</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/60.png"/>
+    </channel>
+    <channel id="61">
+        <display-name>Channel 61</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/61.png"/>
+    </channel>
+    <channel id="62">
+        <display-name>Channel 62</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/62.png"/>
+    </channel>
+    <channel id="63">
+        <display-name>CBC</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/36.png"/>
+    </channel>
+    <channel id="64">
+        <display-name>Channel 64</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/37.png"/>
+    </channel>
+    <channel id="65">
+        <display-name>TSN 4</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/65.png"/>
+    </channel>
+    <channel id="66">
+        <display-name>City</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/66.png"/>
+    </channel>
+    <channel id="67">
+        <display-name>Global</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/67.png"/>
+    </channel>
+    <channel id="68">
+        <display-name>CTV</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/68.png"/>
+    </channel>
+    <channel id="69">
+        <display-name>CTV Two</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/69.png"/>
+    </channel>
+    <channel id="70">
+        <display-name>PAC-12</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/70.png"/>
+    </channel>
+    <channel id="71">
+        <display-name>BBC World News</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/71.png"/>
+    </channel>
+    <channel id="72">
+        <display-name>fuboTV</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/72.png"/>
+    </channel>
+    <channel id="73">
+        <display-name>Eleven Sports Network</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/73.png"/>
+    </channel>
+    <channel id="74">
+        <display-name>MMA TV 1</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/74.png"/>
+    </channel>
+    <channel id="75">
+        <display-name>MMA TV 2</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/75.png"/>
+    </channel>
+    <channel id="76">
+        <display-name>Big Ten Network</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/76.png"/>
+    </channel>
+    <channel id="77">
+        <display-name>Cooking Channel</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/77.png"/>
+    </channel>
+    <channel id="78">
+        <display-name>BBC America</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/78.png"/>
+    </channel>
+    <channel id="79">
+        <display-name>Channel 79</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/79.png"/>
+    </channel>
+    <channel id="80">
+        <display-name>Willow</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/80.png"/>
+    </channel>
+    <channel id="81">
+        <display-name>European Feed</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/81.png"/>
+    </channel>
+    <channel id="82">
+        <display-name>European Feed</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/82.png"/>
+    </channel>
+    <channel id="83">
+        <display-name>European Feed</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/83.png"/>
+    </channel>
+    <channel id="84">
+        <display-name>European Feed</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/84.png"/>
+    </channel>
+    <channel id="85">
+        <display-name>European Feed</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/85.png"/>
+    </channel>
+    <channel id="86">
+        <display-name>European Feed</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/86.png"/>
+    </channel>
+    <channel id="87">
+        <display-name>European Feed</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/87.png"/>
+    </channel>
+    <channel id="88">
+        <display-name>European Feed</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/88.png"/>
+    </channel>
+    <channel id="89">
+        <display-name>European Feed</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/89.png"/>
+    </channel>
+    <channel id="90">
+        <display-name>European Feed</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/90.png"/>
+    </channel>
+    <channel id="91">
+        <display-name>European Feed</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/91.png"/>
+    </channel>
+    <channel id="92">
+        <display-name>European Feed</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/92.png"/>
+    </channel>
+    <channel id="93">
+        <display-name>European Feed</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/93.png"/>
+    </channel>
+    <channel id="94">
+        <display-name>European Feed</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/94.png"/>
+    </channel>
+    <channel id="95">
+        <display-name>European Feed</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/95.png"/>
+    </channel>
+    <channel id="96">
+        <display-name>European Feed</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/96.png"/>
+    </channel>
+    <channel id="97">
+        <display-name>European Feed</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/97.png"/>
+    </channel>
+    <channel id="98">
+        <display-name>European Feed</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/98.png"/>
+    </channel>
+    <channel id="99">
+        <display-name>European Feed</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/99.png"/>
+    </channel>
+    <channel id="100">
+        <display-name>Movistar Liga de Campeones</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/100.png"/>
+    </channel>
+    <channel id="101">
+        <display-name>Sport TV 1</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/101.png"/>
+    </channel>
+    <channel id="102">
+        <display-name>Sport TV 2</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/102.png"/>
+    </channel>
+    <channel id="103">
+        <display-name>European Feed</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/103.png"/>
+    </channel>
+    <channel id="104">
+        <display-name>European Feed</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/104.png"/>
+    </channel>
+    <channel id="105">
+        <display-name>Eurosport 1</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/105.png"/>
+    </channel>
+    <channel id="106">
+        <display-name>Eurosport 2</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/106.png"/>
+    </channel>
+    <channel id="107">
+        <display-name>Eir Sport 2</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/107.png"/>
+    </channel>
+    <channel id="108">
+        <display-name>BT Sport 1</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/108.png"/>
+    </channel>
+    <channel id="109">
+        <display-name>BT Sport 2</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/109.png"/>
+    </channel>
+    <channel id="110">
+        <display-name>BT Sport 3</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/110.png"/>
+    </channel>
+    <channel id="111">
+        <display-name>BT Sport ESPN</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/111.png"/>
+    </channel>
+    <channel id="112">
+        <display-name>Sky Sports News</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/112.png"/>
+    </channel>
+    <channel id="113">
+        <display-name>Sky Sports Main Event</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/113.png"/>
+    </channel>
+    <channel id="114">
+        <display-name>Sky Sports Cricket</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/114.png"/>
+    </channel>
+    <channel id="115">
+        <display-name>Sky Sports Action</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/115.png"/>
+    </channel>
+    <channel id="116">
+        <display-name>Sky Sports Golf</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/116.png"/>
+    </channel>
+    <channel id="117">
+        <display-name>Sky Sports Premier League</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/117.png"/>
+    </channel>
+    <channel id="118">
+        <display-name>Sky Sports F1</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/118.png"/>
+    </channel>
+    <channel id="119">
+        <display-name>Sky Sports Mix</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/119.png"/>
+    </channel>
+    <channel id="120">
+        <display-name>Sky Sports Football</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/120.png"/>
+    </channel>
+    <channel id="121">
+        <display-name>Sky Sports Arena</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/121.png"/>
+    </channel>
+    <channel id="122">
+        <display-name>Channel 122</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/122.png"/>
+    </channel>
+    <channel id="123">
+        <display-name>beIN Sports USA</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/123.png"/>
+    </channel>
+    <channel id="124">
+        <display-name>beIN Sports En Espanol</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/124.png"/>
+    </channel>
+    <channel id="125">
+        <display-name>UFC Fight Pass</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/125.png"/>
+    </channel>
+    <channel id="126">
+        <display-name>Channel 126</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/126.png"/>
+    </channel>
+    <channel id="127">
+        <display-name>MSNBC</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/127.png"/>
+    </channel>
+    <channel id="128">
+        <display-name>Channel 128</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/128.png"/>
+    </channel>
+    <channel id="129">
+        <display-name>Channel 129</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/129.png"/>
+    </channel>
+    <channel id="130">
+        <display-name>Channel 130</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/130.png"/>
+    </channel>
+    <channel id="131">
+        <display-name>Lifetime Channel</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/131.png"/>
+    </channel>
+    <channel id="132">
+        <display-name>Hallmark Channel</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/132.png"/>
+    </channel>
+    <channel id="133">
+        <display-name>Channel 133</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/133.png"/>
+    </channel>
+    <channel id="134">
+        <display-name>Channel 134</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/134.png"/>
+    </channel>
+    <channel id="135">
+        <display-name>Channel 135</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/135.png"/>
+    </channel>
+    <channel id="136">
+        <display-name>Channel 136</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/136.png"/>
+    </channel>
+    <channel id="137">
+        <display-name>Channel 137</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/137.png"/>
+    </channel>
+    <channel id="138">
+        <display-name>Channel 138</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/138.png"/>
+    </channel>
+    <channel id="139">
+        <display-name>Channel 139</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/139.png"/>
+    </channel>
+    <channel id="140">
+        <display-name>Channel 140</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/140.png"/>
+    </channel>
+    <channel id="141">
+        <display-name>Channel 141</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/141.png"/>
+    </channel>
+    <channel id="142">
+        <display-name>Channel 142</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/142.png"/>
+    </channel>
+    <channel id="143">
+        <display-name>Channel 143</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/143.png"/>
+    </channel>
+    <channel id="144">
+        <display-name>Channel 144</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/144.png"/>
+    </channel>
+    <channel id="145">
+        <display-name>The Weather Channel</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/145.png"/>
+    </channel>
+    <channel id="146">
+        <display-name>Channel 146</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/146.png"/>
+    </channel>
+    <channel id="147">
+        <display-name>Channel 147</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/147.png"/>
+    </channel>
+    <channel id="148">
+        <display-name>Channel 148</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/148.png"/>
+    </channel>
+    <channel id="149">
+        <display-name>Channel 149</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/149.png"/>
+    </channel>
+    <channel id="150">
+        <display-name>CP24</display-name>
+        <icon src="http://speed.guide.smoothstreams.tv/assets/images/channels/150.png"/>
+    </channel>
+</tv>
