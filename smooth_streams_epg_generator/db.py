@@ -21,8 +21,10 @@ class Database(object):
 
     @classmethod
     def close_connection(cls):
-        logger.debug('Close connection to SQLite database\n'
-                     'SQLite database file => {0}'.format(cls._database_file_path))
+        logger.debug(
+            'Close connection to SQLite database\nSQLite database file => %s',
+            cls._database_file_path,
+        )
 
         cls._cursor.close()
         cls._connection.close()
@@ -49,7 +51,9 @@ class Database(object):
         cls._connection.row_factory = Row
         cls._cursor = cls._connection.cursor()
 
-        logger.debug('Opened connection to SQLite database\n'
-                     'SQLite database file => {0}'.format(database_file_path))
+        logger.debug(
+            'Opened connection to SQLite database\nSQLite database file => %s',
+            database_file_path,
+        )
 
         cls._create_schema()

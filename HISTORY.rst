@@ -2,20 +2,25 @@
 
 Release History
 ===============
-1.3.7.5 (06-02-2020)
+1.3.8 (08-09-2020)
 ------------------
+* Migrate from PyCharm to VSCode
+* Code refactoring and cleanup using Black and Pylint
+
+1.3.7.5 (06-02-2020)
+--------------------
 * Make sending of email through GMail optional.
 
 1.3.7.3 (02-18-2020)
-------------------
+--------------------
 * Minor enhancements
 
 1.3.7.2 (01-31-2020)
-------------------
+--------------------
 * Update mapping
 
 1.3.7.1 (11-11-2019)
-------------------
+--------------------
 * Update mapping
 
 1.3.7 (26-10-2019)

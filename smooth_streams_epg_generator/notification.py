@@ -17,18 +17,24 @@ class Notifier(object):
         try:
             connection = smtplib.SMTP_SSL(GMAIL_SERVER_HOSTNAME, 465)
             connection.ehlo()
-            connection.login(Configuration.get_configuration_parameter('GMAIL_USERNAME'),
-                             Configuration.get_configuration_parameter('GMAIL_PASSWORD'))
+            connection.login(
+                Configuration.get_configuration_parameter('GMAIL_USERNAME'),
+                Configuration.get_configuration_parameter('GMAIL_PASSWORD'),
+            )
 
             message = MIMEMultipart()
-            message['From'] = Configuration.get_configuration_parameter('GMAIL_USERNAME')
+            message['From'] = Configuration.get_configuration_parameter(
+                'GMAIL_USERNAME'
+            )
             message['To'] = Configuration.get_configuration_parameter('GMAIL_USERNAME')
             message['Subject'] = 'SmoothStreamsEPGGenerator Error'
             message.attach(MIMEText(body, 'plain'))
 
-            connection.sendmail(Configuration.get_configuration_parameter('GMAIL_USERNAME'),
-                                Configuration.get_configuration_parameter('GMAIL_USERNAME'),
-                                message.as_string())
+            connection.sendmail(
+                Configuration.get_configuration_parameter('GMAIL_USERNAME'),
+                Configuration.get_configuration_parameter('GMAIL_USERNAME'),
+                message.as_string(),
+            )
 
             connection.close()
         except smtplib.SMTPException:

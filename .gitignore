@@ -1,6 +1,8 @@
+__pycache__/
+.pylintrc
+.pylintrc
+.vscode/
 *.pyc
-.idea/*
-Python*/
-TODO.rst
 conf/
-dist/
+EcobeeClassesCreator.code-workspace
+SmoothStreamsEPGGenerator.code-workspace
